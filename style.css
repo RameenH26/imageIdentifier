@@ -1,0 +1,29 @@
+.heading{
+    font-size: 19px;
+    width: 450px;
+    height: fit-content;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px gray;
+    width: 400px;
+    height: fit-content;
+}
+.heading_div2{
+    font-size: 11px;
+    width: fit-content;
+    height: fit-content;
+}
+
+canvas{ 
+    box-shadow: 1px 1px 20px 19px rgb(103, 109, 103);
+    border: 2px solid black;
+     border-radius: 25px;
+}
