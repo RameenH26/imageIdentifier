@@ -1,9 +1,9 @@
 .heading{
     font-size: 19px;
-    width: 450px;
+    width: 600px;
     height: fit-content;
     margin: 0px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px rgb(63, 63, 63);
 }
 
 .heading_div{
@@ -21,9 +21,21 @@
     width: fit-content;
     height: fit-content;
 }
+.result_p_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 15px;
+}
 
 canvas{ 
-    box-shadow: 1px 1px 20px 19px rgb(103, 109, 103);
-    border: 2px solid black;
-     border-radius: 25px;
+    box-shadow: 1px 1px 20px 9px green;
+    border: 5px solid white;
+     border-radius: 20px;
+}
+#gradientButton{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+#black {
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
 }

@@ -14,20 +14,28 @@
 
 </head>
 
-<body background="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/beautiful-seamless-doodle-pattern-with-vintage-leaves-sketch-design-background-greeting-cards-and-invitations-to-the-wedding-birthday-mother-s-day-and-other-seasonal-autumn-spring-summer-holidays-yevheniia-hulinska.jpg">
+<body background="https://i.pinimg.com/originals/87/6e/b8/876eb8a54fce93d586817e5b8e21ad55.png">
   <center>
-  <h3 class="btn btn-warning heading">Realtime Face Recognition
+  <h3 class="btn btn-warning heading" id="black">Realtime Face Recognition
     <hr>
     <center>
-      <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 heading_div">
+      <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 heading_div" id="gradientButton">
         This model is trained on :
         <br>
-        <div class="btn btn-danger heading_div2">
+        <div class="btn btn-primary heading_div2">
           Mom | Dad | Brother | Rameen
         </div>
       </div>
     </center>
   </h3>
+  <br><br>
+  <p class="btn btn-danger result_p_tag">Person : 
+    <span id="object_result_name"></span>
+  </p>
+ 
+  <p class="btn btn-success result_p_tag">Accuracy : 
+    <span id="object_accuracy_name"></span>
+  </p>
 </center>
 <script src="main.js"></script>
 </body>
